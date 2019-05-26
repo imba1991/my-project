@@ -23,14 +23,14 @@ export default {
 </script>
 <style>
   .el-header, .el-footer {
-    background-color: #B3C0D1;
+    background-color: rgb(252, 252, 252);
     color: #333;
     text-align: center;
     line-height: 60px;
   }
   
   .el-main {
-    background-color: #E9EEF3;
+    background-color: rgb(252, 252, 252);
     color: #333;
     text-align: center;
     

@@ -31,14 +31,28 @@
         <el-button>各种标签</el-button>
       </p>
     </div>
-    <!-- 内容 -->
+    <!-- 内容区 -->
+   
+     <el-row>
+      <el-col :span="20">
     <div>
+
       <p>今天的天气还是非常不错的，所以我去游了个泳</p>
       <img
         src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558696397297&di=9868ea2a44d917f5897478201fa459af&imgtype=0&src=http%3A%2F%2Fs13.sinaimg.cn%2Fmw690%2F002Z2nVlzy6NRDT3z3Kac%26690"
         alt
       >
+     
+
+      
     </div>
+    </el-col >
+    <!-- 广告区 -->
+    <el-col :span="4">
+        <div><img style="width:300px" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558807789221&di=7d0ff3b336504330d62b859ec4ea019a&imgtype=0&src=http%3A%2F%2Fi2.sinaimg.cn%2Fgm%2Fj%2Fi%2F2015-04-16%2FU4341P115T41D244209F757DT20150416165000.jpg" alt=""></div>
+        <div><img style="width:300px" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558807789447&di=da66228262e8154f30f5f628e3ade643&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201511%2F02%2F20151102165058_GAzJn.jpeg" alt=""></div>
+    </el-col>
+    </el-row>
     <!-- 工具栏 -->
     <div>
       <p>

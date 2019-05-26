@@ -2,7 +2,9 @@
     <div>
           <!-- 广告 -->
     <el-row>
-      <el-col :span="18" :offset="3" >广告位</el-col>
+   
+        
+        <div><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558808216442&di=153f386f451f47f73b296427512b2aa1&imgtype=0&src=http%3A%2F%2Fpuui.qpic.cn%2Fvpic%2F0%2Fz0862pqesf5.png%2F0" alt=""></div>
     </el-row>
     <!-- 底部菜单 -->
     <el-row>
