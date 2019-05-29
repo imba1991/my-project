@@ -1,7 +1,10 @@
 <template>
   <div>
     <el-container>
-      <el-header height="300px"> <top></top></el-header>
+      <el-header height=""> <top></top>
+      
+      </el-header>
+      
       <el-main ><router-view/></el-main>
       <el-footer height="200px">  <down></down></el-footer>
     </el-container>
